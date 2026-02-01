@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Collaborative Canvas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<canvas id="canvas"></canvas>
+
+<div class="toolbar">
+  <input type="color" id="color" value="#000000" />
+  <input type="range" id="width" min="1" max="20" value="4" />
+  <button id="brush">Brush</button>
+  <button id="eraser">Eraser</button>
+  <button id="undo">Undo</button>
+  <button id="redo">Redo</button>
+</div>
+
+<div id="users"></div>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>
