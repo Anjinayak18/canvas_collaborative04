@@ -1,1 +1,2 @@
-export const ws = new WebSocket("ws://localhost:3000");
+// client/websocket.js
+export const ws = new WebSocket("wss://your-app.onrender.com");
